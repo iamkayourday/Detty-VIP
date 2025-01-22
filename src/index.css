@@ -1,0 +1,43 @@
+
+/* Custom Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Times+New+Roman:wght@400;700&display=swap');
+
+/* Global Tailwind Customizations */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* Global Styles */
+body {
+  font-family: 'Times New Roman', Times, serif;
+  /* background-color: #333; */
+  color: #fcd34d; /* yellow */
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fcd34d;
+}
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+.bg-charcoal {
+  background-color: #333;
+}
+
+.text-yellow {
+  color: #fcd34d;
+}
+
+.text-gray-200 {
+  color: #e5e5e5;
+}
+
