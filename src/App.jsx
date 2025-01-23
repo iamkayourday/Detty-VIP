@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "../src/components/Header";
 import Footer from "./components/Footer";
 import Home from "./Pages/Home";
-// import About from "./Pages/About";
-// import Flights from "./Pages/Flights";
-// import Contact from "./components/Contact";
+import About from "./Pages/About";
+import Flights from "./Pages/Flights";
+import Contact from "./components/Contact";
 import WhatsAppButton from "./components/WhatsAppButton";
 
 
@@ -24,9 +24,9 @@ function App() {
         
           <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/booking" element={<Flights />} />
-          <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/contact" element={<Contact />} />
           </Routes>
 
         {/* Footer */}

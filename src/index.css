@@ -25,7 +25,7 @@ a {
 }
 
 a:hover {
-  color: #fcd34d;
+  text-decoration: underline;
 }
 
 .font-pacifico {
