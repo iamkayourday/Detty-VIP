@@ -4,24 +4,24 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-cover bg-center min-h-screen flex items-center justify-center text-white" style={{ backgroundImage: 'url(/Hero.jpg)' }}>
+    <section className="relative bg-cover bg-center h-96 flex items-center justify-center text-white mt-1 px-4 sm:px-6 md:px-8 lg:px-10" style={{ backgroundImage: 'url(/Hero.jpg)' }}>
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
-      <div className="container mx-auto px-6 py-20 relative z-10 text-center">
+      <div className="container mx-auto relative z-10 text-center">
         {/* Headline */}
         <motion.h1
-          className="text-5xl md:text-7xl font-bold mb-6"
+          className="text-2xl sm:text-xl md:text-2xl lg:text-4xl font-bold mb-6"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          Fly in Style This <span className="text-yellow-500">Detty December</span> – Affordable Luxury Awaits!
+          Fly in Style This <span className="text-[#2e5c99]">Detty December</span> – Affordable Luxury Awaits!
         </motion.h1>
 
         {/* Subheadline */}
         <motion.h2
-          className="text-2xl md:text-3xl mb-8"
+          className="text-lg sm:text-xl md:text-2xl mb-8"
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.2, ease: "easeOut" }}
@@ -49,7 +49,7 @@ const HeroSection = () => {
           >
             <Link
               to="/booking"
-              className="px-8 py-3 bg-yellow-500 text-charcoal font-semibold text-lg rounded-full hover:bg-[#333] hover:text-white transition-all duration-300"
+              className="px-8 py-3 bg-[#2e5c99] text-charcoal font-semibold text-lg rounded-full hover:bg-[#333] hover:text-white transition-all duration-300"
             >
               Reserve Your Seat Now
             </Link>
