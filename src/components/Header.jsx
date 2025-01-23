@@ -30,22 +30,22 @@ const Header = () => {
         </motion.div>
 
         {/* Desktop Nav Menu */}
-        <nav className="hidden md:flex space-x-6 text-black">
-          <Link to="/" className="hover:text-[#2e5c99] transition-colors">
+        <nav className="hidden md:flex space-x-6 text-black  ">
+          <Link to="/" className="hover:text-[#2e5c99] transition-colors px-2 py-1 hover:bg-blue-50 rounded-xl">
             Home
           </Link>
-          <Link to="/about" className="hover:text-[#2e5c99] transition-colors">
+          <Link to="/about" className="hover:text-[#2e5c99] transition-colors px-2 py-1 hover:bg-blue-50 rounded-xl">
             About
           </Link>
           <Link
             to="/booking"
-            className="hover:text-[#2e5c99] transition-colors"
+            className="hover:text-[#2e5c99] transition-colors px-2 py-1 hover:bg-blue-50 rounded-xl"
           >
             Booking
           </Link>
           <Link
             to="/contact"
-            className="hover:text-[#2e5c99] transition-colors"
+            className="hover:text-[#2e5c99] transition-colors px-2 py-1 hover:bg-blue-50 rounded-xl"
           >
             Contact
           </Link>
