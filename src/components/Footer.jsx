@@ -10,7 +10,7 @@ const Footer = () => {
 
   return (
     <motion.footer
-      className="bg-[#333333] text-yellow py-8"
+      className="bg-[#01122c] text-white py-8"
       initial="hidden"
       animate="visible"
       variants={footerVariants}
@@ -19,13 +19,22 @@ const Footer = () => {
       <div className="container mx-auto text-center space-y-4">
         {/* Links */}
         <div className="space-x-4">
-          <motion.a href="/about" className="hover:text-yellow transition-colors">
+          <motion.a
+            href="/about"
+            className="hover:text-gray-300 transition-colors"
+          >
             About Us
           </motion.a>
-          <motion.a href="/terms" className="hover:text-yellow transition-colors">
+          <motion.a
+            href="/terms"
+            className="hover:text-gray-300 transition-colors"
+          >
             Terms & Conditions
           </motion.a>
-          <motion.a href="/privacy" className="hover:text-yellow transition-colors">
+          <motion.a
+            href="/privacy"
+            className="hover:text-gray-300 transition-colors"
+          >
             Privacy Policy
           </motion.a>
         </div>
@@ -62,7 +71,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <p className="text-yellow">
+        <p className="text-gray-400">
           &copy; 2025 Detty VIP. All Rights Reserved.
         </p>
       </div>
