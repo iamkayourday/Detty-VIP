@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
-    <section className="relative bg-cover bg-center h-[550px] flex items-center justify-center text-white mt-1 px-4 sm:px-6 md:px-8 lg:px-10" style={{ backgroundImage: 'url(/Hero.jpg)' }}>
+    <section className="relative bg-cover bg-center h-[550px] flex items-center justify-center text-white mt-1 px-4 sm:px-6 md:px-8 lg:px-10" style={{ backgroundImage: 'url(/flight.jpg)' }}>
       {/* Overlay */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
