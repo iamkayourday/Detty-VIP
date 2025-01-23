@@ -14,7 +14,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-[#333333] text-yellow py-4 px-6">
+    <header className="bg-[#333333] text-yellow py-4 px-6 border-yellow-200 border-b-2">
       <div className="flex items-center justify-between max-w-screen-xl mx-auto relative">
         {/* Logo */}
         <motion.div
@@ -28,10 +28,10 @@ const Header = () => {
 
         {/* Nav Menu */}
         <nav className="hidden md:flex space-x-6 font-semibold">
-          <Link to="/" className="hover:text-yellow transition-colors">Home</Link>
-          <Link to="/about" className="hover:text-yellow transition-colors">About</Link>
-          <Link to="/booking" className="hover:text-yellow transition-colors">Booking</Link>
-          <Link to="/contact" className="hover:text-yellow transition-colors">Contact</Link>
+          <Link to="/" className="hover:text-yellow transition-colors text-white">Home</Link>
+          <Link to="/about" className="hover:text-yellow transition-colors text-white">About</Link>
+          <Link to="/booking" className="hover:text-yellow transition-colors text-white">Booking</Link>
+          <Link to="/contact" className="hover:text-yellow transition-colors text-white">Contact</Link>
         </nav>
 
         {/* Mobile Menu Icon */}
@@ -81,10 +81,10 @@ const Header = () => {
               </motion.button>
             </div>
             <nav className="space-y-8 text-2xl font-semibold text-center">
-              <Link to="/" className="block hover:text-yellow" onClick={toggleMenu}>Home</Link>
-              <Link to="/about" className="block hover:text-yellow" onClick={toggleMenu}>About</Link>
-              <Link to="/booking" className="block hover:text-yellow" onClick={toggleMenu}>Booking</Link>
-              <Link to="/contact" className="block hover:text-yellow" onClick={toggleMenu}>Contact</Link>
+              <Link to="/" className="block hover:text-yellow text-white" onClick={toggleMenu}>Home</Link>
+              <Link to="/about" className="block hover:text-yellow text-white" onClick={toggleMenu}>About</Link>
+              <Link to="/booking" className="block hover:text-yellow text-white" onClick={toggleMenu}>Booking</Link>
+              <Link to="/contact" className="block hover:text-yellow text-white" onClick={toggleMenu}>Contact</Link>
             </nav>
           </motion.div>
         )}
