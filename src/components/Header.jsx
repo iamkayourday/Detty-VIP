@@ -18,7 +18,7 @@ const Header = () => {
       <div className="flex items-center justify-between max-w-screen-xl mx-auto relative">
         {/* Logo */}
         <motion.div
-          className="text-4xl font-pacifico text-yellow tracking-wide"
+          className="text-4xl text-yellow tracking-wide"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1 }}
