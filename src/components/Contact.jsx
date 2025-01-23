@@ -36,7 +36,7 @@ const Contact = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          <h2 className="text-4xl font-bold mb-6">We’re Here to Help</h2>
+          <h2 className="text-4xl font-bold mb-6">Get in touch with us</h2>
           <p className="text-lg mb-8">
             We’re here to make your Detty December unforgettable! Got questions
             or need help getting started? Reach out to us through any of the
