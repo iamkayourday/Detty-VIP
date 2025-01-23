@@ -9,6 +9,7 @@ import {
   FaMapMarkerAlt,
   FaUser,
   FaPen,
+  FaTiktok,
 } from "react-icons/fa";
 
 const Contact = () => {
@@ -30,73 +31,84 @@ const Contact = () => {
     <section className="bg-white py-16 px-6 md:px-16">
       <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-12 md:gap-24">
         {/* Left Section */}
-        <motion.div
-          className="md:w-1/2 text-charcoal"
-          initial={{ opacity: 0, x: -50 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1, ease: "easeOut" }}
-        >
-          <h2 className="text-4xl font-bold mb-6">Get in touch with us</h2>
-          <p className="text-lg mb-8">
-            We’re here to make your Detty December unforgettable! Got questions
-            or need help getting started? Reach out to us through any of the
-            options below, and our VIP team will ensure you’re flying in style
-            in no time.
-          </p>
-          <div className="space-y-4">
-            <div className="flex items-center gap-3">
-              <FaPhone className="text-xl" />
-              <div>
-                <h3 className="text-xl font-semibold">Phone</h3>
-                <p>(123) 456-7890</p>
-              </div>
-            </div>
-            <div className="flex items-center gap-3">
-              <FaEnvelope className="text-xl" />
-              <div>
-                <h3 className="text-xl font-semibold">Email</h3>
-                <a href="info@dettyvip.com">info@dettyvip.com</a>
-                {/* <p>info@dettyvip.com</p> */}
-              </div>
-            </div>
-            <div className="flex items-center gap-3">
-              <FaPhone className="text-xl" />
-              <div>
-                <h3 className="text-xl font-semibold">Whatsapp</h3>
-                <p>(123) 456-7890</p>
-              </div>
-            </div>
-          </div>
-          <div className="mt-8">
-            <h3 className="text-lg font-medium mb-4">Follow Us On</h3>
-            <div className="flex gap-6">
-              <a
-                href="https://www.facebook.com/your-profile"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white w-16 h-16 rounded-full shadow-md flex items-center justify-center"
-              >
-                <FaFacebook className="text-4xl text-[#2e5c99] transform transition-all duration-300 hover:scale-125" />
-              </a>
-              <a
-                href="https://twitter.com/your-profile"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white w-16 h-16 rounded-full shadow-md flex items-center justify-center"
-              >
-                <FaTwitter className="text-4xl text-[#1DA1F2] transform transition-all duration-300 hover:scale-125" />
-              </a>
-              <a
-                href="https://www.instagram.com/your-profile"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-white w-16 h-16 rounded-full shadow-md flex items-center justify-center"
-              >
-                <FaInstagram className="text-4xl text-[#E1306C] transform transition-all duration-300 hover:scale-125" />
-              </a>
-            </div>
-          </div>
-        </motion.div>
+<motion.div
+  className="md:w-1/2 text-charcoal"
+  initial={{ opacity: 0, x: -50 }}
+  animate={{ opacity: 1, x: 0 }}
+  transition={{ duration: 1, ease: "easeOut" }}
+>
+  <h2 className="text-4xl font-bold mb-6">Get in touch with us</h2>
+  <p className="text-lg mb-8">
+    We’re here to make your Detty December unforgettable! Got questions or need help getting started? Reach out to us through any of the options below, and our VIP team will ensure you’re flying in style in no time.
+  </p>
+
+  <div className="space-y-4">
+    {/* Phone */}
+    <div className="flex items-center gap-3">
+      <FaPhone className="text-xl" />
+      <div>
+        <h3 className="text-xl font-semibold">Phone</h3>
+        <p>(123) 456-7890</p>
+      </div>
+    </div>
+
+    {/* Email */}
+    <div className="flex items-center gap-3">
+      <FaEnvelope className="text-xl" />
+      <div>
+        <h3 className="text-xl font-semibold">Email</h3>
+        <a className="hover:underline" href="mailto:info@dettyvip.com">
+          info@dettyvip.com
+        </a>
+      </div>
+    </div>
+
+    {/* WhatsApp */}
+    <div className="flex items-center gap-3">
+      <FaPhone className="text-xl" />
+      <div>
+        <h3 className="text-xl font-semibold">WhatsApp</h3>
+        <p>(123) 456-7890</p>
+      </div>
+    </div>
+  </div>
+
+  {/* Social Media */}
+  <div className="mt-8">
+    <h3 className="text-lg font-medium mb-4">Follow Us On</h3>
+    <div className="flex gap-6">
+      {/* TikTok */}
+      <a
+        href="https://www.tiktok.com/@Detty.VIP"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-white w-16 h-16 rounded-full shadow-md flex items-center justify-center"
+      >
+        <FaTiktok className="text-4xl text-[#000000] transform transition-all duration-300 hover:scale-125" />
+      </a>
+      
+      {/* Instagram */}
+      <a
+        href="https://www.instagram.com/DettyVIP"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-white w-16 h-16 rounded-full shadow-md flex items-center justify-center"
+      >
+        <FaInstagram className="text-4xl text-[#E1306C] transform transition-all duration-300 hover:scale-125" />
+      </a>
+
+      {/* X (Twitter) */}
+      <a
+        href="https://twitter.com/DettyVIP"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-white w-16 h-16 rounded-full shadow-md flex items-center justify-center"
+      >
+        <FaTwitter className="text-4xl text-[#1DA1F2] transform transition-all duration-300 hover:scale-125" />
+      </a>
+    </div>
+  </div>
+</motion.div>
 
         {/* Right Section */}
         <motion.div

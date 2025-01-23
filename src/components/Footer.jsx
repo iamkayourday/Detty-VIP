@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
+import { FaFacebook, FaTwitter, FaInstagram, FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
   const footerVariants = {
@@ -42,31 +42,32 @@ const Footer = () => {
         {/* Social Media Icons */}
         <div className="space-x-4">
           <motion.a
-            href="https://www.facebook.com"
+            href="https://www.tiktok.com/@Detty.VIP"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           >
-            <FaFacebook className="inline-block text-2xl" />
+            <FaTiktok className="inline-block text-2xl" />
           </motion.a>
+          
           <motion.a
-            href="https://www.twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            whileHover={{ scale: 1.1 }}
-            transition={{ duration: 0.3 }}
-          >
-            <FaTwitter className="inline-block text-2xl" />
-          </motion.a>
-          <motion.a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/DettyVIP"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1 }}
             transition={{ duration: 0.3 }}
           >
             <FaInstagram className="inline-block text-2xl" />
+          </motion.a>
+          <motion.a
+            href="https://twitter.com/DettyVIP"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 0.3 }}
+          >
+            <FaTwitter className="inline-block text-2xl" />
           </motion.a>
         </div>
 
