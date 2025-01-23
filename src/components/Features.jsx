@@ -8,7 +8,7 @@ const Features = () => {
       {/* Heading and Subheading */}
       <div className="text-center mb-16">
         <motion.h2
-          className="text-4xl md:text-5xl font-semibold text-[#fcd34d]"
+          className="text-4xl md:text-5xl font-semibold text-[#2e5c99]"
           initial={{ opacity: 0, y: -50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: 'easeOut' }}
@@ -29,15 +29,15 @@ const Features = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
         {/* Feature 1 */}
         <motion.div
-          className="p-10 rounded-lg shadow-xl text-charcoal transform hover:scale-105 transition duration-300 relative"
+          className="bg-gray-100 p-10 rounded-lg shadow-xl text-charcoal transform hover:scale-105 transition duration-300 relative"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: 'easeOut' }}
         >
           <div className="flex justify-center items-center bg-white w-16 h-16 rounded-full shadow-md mx-auto -mt-16 mb-6">
-            <FaDollarSign className="text-4xl text-[#ffd700] transform transition-all duration-300 hover:scale-125" />
+            <FaDollarSign className="text-4xl text-[#2e5c99] transform transition-all duration-300 hover:scale-125" />
           </div>
-          <h3 className="text-2xl font-semibold mb-4 text-[#fcd34d]">Affordable Luxury</h3>
+          <h3 className="text-2xl font-semibold mb-4 text-[#2e5c99]">Affordable Luxury</h3>
           <p className="text-lg">
             Enjoy premium travel without breaking the bank.
           </p>
@@ -45,15 +45,15 @@ const Features = () => {
 
         {/* Feature 2 */}
         <motion.div
-          className="p-10 rounded-lg shadow-xl text-charcoal transform hover:scale-105 transition duration-300 relative"
+          className="bg-gray-100 p-10 rounded-lg shadow-xl text-charcoal transform hover:scale-105 transition duration-300 relative"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
         >
           <div className="flex justify-center items-center bg-white w-16 h-16 rounded-full shadow-md mx-auto -mt-16 mb-6">
-            <FaAirbnb className="text-4xl text-[#ffd700] transform transition-all duration-300 hover:scale-125" />
+            <FaAirbnb className="text-4xl text-[#2e5c99] transform transition-all duration-300 hover:scale-125" />
           </div>
-          <h3 className="text-2xl font-semibold mb-4 text-[#fcd34d]">VIP Onboard Experience</h3>
+          <h3 className="text-2xl font-semibold mb-4 text-[#2e5c99]">VIP Onboard Experience</h3>
           <p className="text-lg">
             Relax in style, and vibe with like-minded travelers.
           </p>
@@ -61,15 +61,15 @@ const Features = () => {
 
         {/* Feature 3 */}
         <motion.div
-          className="p-10 rounded-lg shadow-xl text-charcoal transform hover:scale-105 transition duration-300 relative"
+          className="bg-gray-100 p-10 rounded-lg shadow-xl text-charcoal transform hover:scale-105 transition duration-300 relative"
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: 'easeOut', delay: 0.4 }}
         >
           <div className="flex justify-center items-center bg-white w-16 h-16 rounded-full shadow-md mx-auto -mt-16 mb-6">
-            <FaClipboardCheck className="text-4xl text-[#ffd700] transform transition-all duration-300 hover:scale-125" />
+            <FaClipboardCheck className="text-4xl text-[#2e5c99] transform transition-all duration-300 hover:scale-125" />
           </div>
-          <h3 className="text-2xl font-semibold mb-4 text-[#fcd34d]">Quick and Easy Booking</h3>
+          <h3 className="text-2xl font-semibold mb-4 text-[#2e5c99]">Quick and Easy Booking</h3>
           <p className="text-lg">
             No queues, no hassle—just smooth service.
           </p>
@@ -84,10 +84,10 @@ const Features = () => {
         transition={{ duration: 1, delay: 0.6 }}
       >
         <p className="text-2xl font-semibold text-charcoal mb-4">
-          Limited seats available—<span className="text-[#fcd34d]">Reserve now!</span>
+          Limited seats available—<span className="text-[#2e5c99]">Reserve now!</span>
         </p>
         <motion.button
-          className="bg-charcoal text-[#ffd700] py-3 px-10 rounded-full shadow-md transform transition-all duration-300 hover:scale-105"
+          className="bg-[#2e5c99] text-white py-3 px-10 rounded-full shadow-md transform transition-all duration-300 hover:scale-105"
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.3 }}
         >
