@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaDollarSign, FaAirbnb, FaClipboardCheck } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const Features = () => {
   return (
@@ -86,13 +87,15 @@ const Features = () => {
         <p className="text-2xl font-semibold text-charcoal mb-4">
           Limited seats available—<span className="text-[#2e5c99]">Reserve now!</span>
         </p>
+        <Link to="/booking">
         <motion.button
-          className="bg-[#2e5c99] text-white py-3 px-10 rounded-full shadow-md transform transition-all duration-300 hover:scale-105"
+          className="bg-[#2e5c99] text-white hover:bg-[#214069] py-3 px-10 rounded-full shadow-md transform transition-all duration-300 hover:scale-105"
           whileHover={{ scale: 1.1 }}
           transition={{ duration: 0.3 }}
         >
           Reserve Your Seat Now
         </motion.button>
+        </Link>
       </motion.div>
     </section>
   );

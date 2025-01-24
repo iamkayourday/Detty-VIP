@@ -50,7 +50,7 @@ const HeroSection = () => {
           >
             <Link
               to="/booking"
-              className="px-8 py-3 bg-[#2e5c99] text-charcoal font-semibold text-lg rounded-full hover:bg-[#333] hover:text-white transition-all duration-300"
+              className="px-8 py-3 bg-[#2e5c99] text-charcoal font-semibold text-lg rounded-full hover:bg-[#214069] hover:text-white transition-all duration-300"
             >
               Reserve Your Seat Now
             </Link>
