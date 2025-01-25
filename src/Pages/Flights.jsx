@@ -101,7 +101,7 @@ const Flights = () => {
             </div>
 
             {/* Payment Information */}
-            <div className="relative">
+            {/* <div className="relative">
               <FaCreditCard className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
               <input
                 type="text"
@@ -110,7 +110,7 @@ const Flights = () => {
                 required
                 className="w-full border border-gray-300 rounded-lg px-10 py-2 focus:outline-none focus:ring-2 focus:ring-[#2e5c99]"
               />
-            </div>
+            </div> */}
 
             {/* CTA Button */}
             <button

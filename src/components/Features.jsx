@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaDollarSign, FaAirbnb, FaClipboardCheck } from 'react-icons/fa';
+// import { FaDollarSign, FaAirbnb, FaClipboardCheck } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Features = () => {
@@ -35,9 +35,9 @@ const Features = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: 'easeOut' }}
         >
-          <div className="flex justify-center items-center bg-white w-16 h-16 rounded-full shadow-md mx-auto -mt-16 mb-6">
+          {/* <div className="flex justify-center items-center bg-white w-16 h-16 rounded-full shadow-md mx-auto -mt-16 mb-6">
             <FaDollarSign className="text-4xl text-[#2e5c99] transform transition-all duration-300 hover:scale-125" />
-          </div>
+          </div> */}
           <h3 className="text-2xl font-semibold mb-4 text-[#2e5c99]">Affordable Luxury</h3>
           <p className="text-lg">
             Enjoy premium travel without breaking the bank.
@@ -51,9 +51,9 @@ const Features = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: 'easeOut', delay: 0.2 }}
         >
-          <div className="flex justify-center items-center bg-white w-16 h-16 rounded-full shadow-md mx-auto -mt-16 mb-6">
+          {/* <div className="flex justify-center items-center bg-white w-16 h-16 rounded-full shadow-md mx-auto -mt-16 mb-6">
             <FaAirbnb className="text-4xl text-[#2e5c99] transform transition-all duration-300 hover:scale-125" />
-          </div>
+          </div> */}
           <h3 className="text-2xl font-semibold mb-4 text-[#2e5c99]">VIP Onboard Experience</h3>
           <p className="text-lg">
             Relax in style, and vibe with like-minded travelers.
@@ -67,9 +67,9 @@ const Features = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: 'easeOut', delay: 0.4 }}
         >
-          <div className="flex justify-center items-center bg-white w-16 h-16 rounded-full shadow-md mx-auto -mt-16 mb-6">
+          {/* <div className="flex justify-center items-center bg-white w-16 h-16 rounded-full shadow-md mx-auto -mt-16 mb-6">
             <FaClipboardCheck className="text-4xl text-[#2e5c99] transform transition-all duration-300 hover:scale-125" />
-          </div>
+          </div> */}
           <h3 className="text-2xl font-semibold mb-4 text-[#2e5c99]">Quick and Easy Booking</h3>
           <p className="text-lg">
             No queues, no hassle—just smooth service.
